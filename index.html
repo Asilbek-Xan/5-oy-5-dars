@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>5-oy 5-hometask</title>
+</head>
+<body>
+
+  <form id="form">
+    <input type="text" name="name" placeholder="Mashina nomi:">
+<textarea name="description" placeholder="Mashina uchun izoh:"></textarea>
+    </textarea>
+    <button>Qo'shish</button></form>
+
+  <h3 id="loader">Loading . . .</h3>
+  <ul id="container"></ul>
+  <ul id="toastContainer"></ul>
+
+
+
+  <template id="cardTemplate">
+    <li>
+      <h2></h2>
+      <p></p>
+      <button class="js-delete">o'chirish</button>
+    </li>
+  </template>
+
+
+
+  <template id="toastTemplate">
+    <li class="message">
+      <p></p>
+      <button>Yopish</button>
+    </li>
+  </template>
+
+
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>
+
